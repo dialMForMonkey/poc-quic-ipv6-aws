@@ -1,0 +1,12 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+s2n-quic = "1.32"
+env_logger = "0.11"
+log = { version = "0.4", features = ["max_level_debug"]}
+tokio = { version = "1.20", features = ["macros", "rt-multi-thread","net"] }
