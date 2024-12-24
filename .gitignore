@@ -1,2 +1,8 @@
 
 server/target/
+
+client/.vscode/
+
+app_server/app/ca-key.pem
+
+client/target/
